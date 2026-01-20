@@ -1,0 +1,12 @@
+services:
+  learningbase:
+    build: .
+    image: activationgbase_economic_forecast_across_german_states
+    container_name: activationbase_test
+    volumes:
+      - ai_system:/tmp
+    tty: true
+
+volumes:
+  ai_system:
+    external: true

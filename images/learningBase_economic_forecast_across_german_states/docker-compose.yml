@@ -1,0 +1,12 @@
+services:
+  learningbase:
+    build: .
+    image: learningbase_economic_forecast_across_german_states
+    container_name: learningbase_test
+    volumes:
+      - ai_system:/tmp
+    tty: true
+
+volumes:
+  ai_system:
+    external: true
