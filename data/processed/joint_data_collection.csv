@@ -1,0 +1,305 @@
+state,year,population,employment,gdp
+Baden-Wurttemberg,1991,9904.0,5175.1,243.4
+Baden-Wurttemberg,2000,10359.2,5503.6,312.0
+Baden-Wurttemberg,2008,10506.2,5721.3,387.5
+Baden-Wurttemberg,2009,10491.0,5684.0,360.0
+Baden-Wurttemberg,2010,10480.4,5688.9,389.9
+Baden-Wurttemberg,2011,10495.5,5762.8,412.7
+Baden-Wurttemberg,2012,10540.8,5846.3,421.3
+Baden-Wurttemberg,2013,10600.2,5915.2,432.3
+Baden-Wurttemberg,2014,10674.0,5987.5,448.9
+Baden-Wurttemberg,2015,10798.1,6043.8,468.6
+Baden-Wurttemberg,2016,10915.8,6122.9,483.2
+Baden-Wurttemberg,2017,10987.7,6212.0,506.8
+Baden-Wurttemberg,2018,11046.5,6297.5,526.4
+Baden-Wurttemberg,2019,11085.0,6342.9,536.1
+Baden-Wurttemberg,2020,11101.7,6283.5,516.9
+Baden-Wurttemberg,2021,11113.8,6283.3,555.7
+Baden-Wurttemberg,2022,11202.5,6361.2,595.4
+Baden-Wurttemberg,2023,11309.8,6421.4,631.5
+Baden-Wurttemberg,2024,11348.8,6433.8,650.2
+Bavaria,1991,11517.8,6060.0,264.0
+Bavaria,2000,12113.9,6460.2,359.9
+Bavaria,2008,12382.6,6703.2,442.7
+Bavaria,2009,12370.4,6726.3,434.9
+Bavaria,2010,12372.8,6786.5,459.3
+Bavaria,2011,12413.4,6904.7,491.0
+Bavaria,2012,12481.5,7021.1,504.0
+Bavaria,2013,12561.9,7100.3,519.9
+Bavaria,2014,12647.9,7184.4,541.7
+Bavaria,2015,12767.5,7279.7,564.1
+Bavaria,2016,12887.1,7398.7,586.9
+Bavaria,2017,12964.0,7524.4,614.3
+Bavaria,2018,13037.0,7645.5,629.0
+Bavaria,2019,13100.7,7732.3,651.2
+Bavaria,2020,13132.5,7682.9,634.8
+Bavaria,2021,13158.6,7684.3,675.0
+Bavaria,2022,13273.2,7791.0,723.6
+Bavaria,2023,13402.2,7862.8,773.6
+Bavaria,2024,13458.7,7894.0,791.6
+Berlin,1991,3436.2,1706.0,68.4
+Berlin,2000,3298.8,1619.1,86.2
+Berlin,2008,3265.7,1649.6,101.0
+Berlin,2009,3269.4,1677.6,101.4
+Berlin,2010,3274.2,1697.3,105.2
+Berlin,2011,3302.2,1712.4,110.6
+Berlin,2012,3350.6,1751.0,112.4
+Berlin,2013,3398.5,1784.2,116.1
+Berlin,2014,3445.8,1818.3,122.3
+Berlin,2015,3494.9,1857.1,129.3
+Berlin,2016,3547.4,1910.0,136.4
+Berlin,2017,3594.2,1969.5,144.1
+Berlin,2018,3629.2,2022.7,152.0
+Berlin,2019,3657.2,2071.7,159.6
+Berlin,2020,3666.8,2066.2,159.0
+Berlin,2021,3670.8,2085.5,171.2
+Berlin,2022,3716.4,2156.2,184.5
+Berlin,2023,3768.7,2190.7,197.9
+Berlin,2024,3791.8,2197.2,207.1
+Brandenburg,1991,2559.8,1191.0,19.9
+Brandenburg,2000,2580.6,1089.8,45.2
+Brandenburg,2008,2491.8,1063.3,56.0
+Brandenburg,2009,2477.8,1076.6,54.8
+Brandenburg,2010,2466.3,1081.8,57.4
+Brandenburg,2011,2457.2,1080.9,59.4
+Brandenburg,2012,2451.3,1083.5,61.0
+Brandenburg,2013,2449.4,1081.8,62.3
+Brandenburg,2014,2453.5,1082.6,65.7
+Brandenburg,2015,2471.3,1084.9,66.8
+Brandenburg,2016,2489.7,1099.0,68.6
+Brandenburg,2017,2499.3,1113.2,72.1
+Brandenburg,2018,2508.0,1123.9,74.0
+Brandenburg,2019,2516.9,1129.8,77.2
+Brandenburg,2020,2526.5,1122.8,76.2
+Brandenburg,2021,2534.5,1129.3,81.2
+Brandenburg,2022,2555.5,1142.3,89.5
+Brandenburg,2023,2577.4,1145.9,96.4
+Brandenburg,2024,2582.2,1145.1,97.5
+Bremen,1991,682.4,397.9,19.0
+Bremen,2000,657.2,394.5,22.5
+Bremen,2008,654.4,409.3,27.9
+Bremen,2009,653.3,407.1,25.5
+Bremen,2010,652.2,407.2,27.0
+Bremen,2011,651.8,412.8,27.8
+Bremen,2012,653.5,419.3,29.1
+Bremen,2013,656.1,420.8,29.5
+Bremen,2014,659.6,422.3,30.5
+Bremen,2015,666.7,423.1,31.1
+Bremen,2016,675.1,427.9,31.9
+Bremen,2017,679.9,431.4,32.8
+Bremen,2018,682.0,435.8,33.4
+Bremen,2019,682.1,438.9,33.4
+Bremen,2020,680.7,434.6,32.4
+Bremen,2021,678.3,433.4,35.5
+Bremen,2022,680.7,440.3,38.8
+Bremen,2023,688.3,444.3,40.3
+Bremen,2024,691.8,444.1,41.4
+Hamburg,1991,1658.7,1022.9,61.1
+Hamburg,2000,1672.5,1052.6,78.5
+Hamburg,2008,1701.2,1120.8,97.1
+Hamburg,2009,1698.8,1137.4,94.2
+Hamburg,2010,1701.7,1148.1,97.2
+Hamburg,2011,1711.9,1164.6,98.8
+Hamburg,2012,1726.2,1186.8,101.4
+Hamburg,2013,1740.3,1201.8,106.0
+Hamburg,2014,1754.6,1211.2,108.3
+Hamburg,2015,1775.1,1222.2,112.9
+Hamburg,2016,1798.9,1243.5,115.2
+Hamburg,2017,1820.5,1260.1,121.4
+Hamburg,2018,1835.9,1279.1,124.3
+Hamburg,2019,1844.2,1297.8,129.9
+Hamburg,2020,1849.9,1293.6,124.2
+Hamburg,2021,1853.2,1295.6,137.6
+Hamburg,2022,1873.0,1324.1,155.7
+Hamburg,2023,1901.1,1350.5,153.7
+Hamburg,2024,1915.8,1362.2,161.9
+Hesse,1991,5797.9,2958.5,150.4
+Hesse,2000,6013.0,3120.5,195.5
+Hesse,2008,5982.9,3159.8,234.2
+Hesse,2009,5972.9,3171.2,225.0
+Hesse,2010,5969.3,3179.2,232.4
+Hesse,2011,5981.6,3217.7,243.5
+Hesse,2012,6005.1,3255.8,244.4
+Hesse,2013,6031.0,3269.0,250.5
+Hesse,2014,6069.7,3304.5,261.3
+Hesse,2015,6135.0,3341.7,268.5
+Hesse,2016,6194.6,3385.5,279.8
+Hesse,2017,6228.2,3440.5,288.0
+Hesse,2018,6254.5,3494.5,294.4
+Hesse,2019,6276.9,3529.9,302.8
+Hesse,2020,6290.6,3505.4,293.8
+Hesse,2021,6294.1,3515.6,313.3
+Hesse,2022,6343.2,3570.9,332.4
+Hesse,2023,6406.0,3607.0,354.5
+Hesse,2024,6428.9,3624.1,368.3
+Lower Saxony,1991,7427.7,3300.7,145.2
+Lower Saxony,2000,7843.1,3585.1,185.8
+Lower Saxony,2008,7834.4,3709.2,225.3
+Lower Saxony,2009,7807.2,3740.8,216.6
+Lower Saxony,2010,7787.0,3766.7,229.9
+Lower Saxony,2011,7776.5,3827.5,243.3
+Lower Saxony,2012,7776.6,3887.4,249.0
+Lower Saxony,2013,7784.8,3922.3,251.8
+Lower Saxony,2014,7808.6,3956.7,262.9
+Lower Saxony,2015,7876.7,3988.0,265.5
+Lower Saxony,2016,7936.1,4036.9,285.3
+Lower Saxony,2017,7954.2,4088.1,292.6
+Lower Saxony,2018,7972.6,4141.3,303.8
+Lower Saxony,2019,7988.0,4183.0,314.5
+Lower Saxony,2020,7998.5,4158.4,306.7
+Lower Saxony,2021,8015.2,4169.3,321.1
+Lower Saxony,2022,8083.6,4217.9,343.6
+Lower Saxony,2023,8151.1,4240.4,369.1
+Lower Saxony,2024,8163.1,4244.1,381.3
+Mecklenburg-Western Pomerania,1991,1907.2,836.1,14.4
+Mecklenburg-Western Pomerania,2000,1770.0,767.3,29.7
+Mecklenburg-Western Pomerania,2008,1648.0,750.0,34.6
+Mecklenburg-Western Pomerania,2009,1632.3,755.6,34.4
+Mecklenburg-Western Pomerania,2010,1619.9,751.8,35.4
+Mecklenburg-Western Pomerania,2011,1610.8,741.3,36.9
+Mecklenburg-Western Pomerania,2012,1603.6,734.8,37.3
+Mecklenburg-Western Pomerania,2013,1598.4,733.7,38.3
+Mecklenburg-Western Pomerania,2014,1597.8,740.9,40.1
+Mecklenburg-Western Pomerania,2015,1605.8,742.9,40.8
+Mecklenburg-Western Pomerania,2016,1611.5,746.4,41.8
+Mecklenburg-Western Pomerania,2017,1610.9,752.9,45.1
+Mecklenburg-Western Pomerania,2018,1610.4,758.0,45.3
+Mecklenburg-Western Pomerania,2019,1608.9,761.5,48.2
+Mecklenburg-Western Pomerania,2020,1609.5,756.5,47.3
+Mecklenburg-Western Pomerania,2021,1611.0,757.9,50.2
+Mecklenburg-Western Pomerania,2022,1619.8,761.6,55.7
+Mecklenburg-Western Pomerania,2023,1628.9,762.4,59.2
+Mecklenburg-Western Pomerania,2024,1626.4,757.0,61.2
+North Rhine-Westphalia,1991,17421.3,8072.8,381.6
+North Rhine-Westphalia,2000,17856.1,8618.5,470.0
+North Rhine-Westphalia,2008,17701.6,8795.4,570.6
+North Rhine-Westphalia,2009,17625.1,8773.7,549.8
+North Rhine-Westphalia,2010,17566.4,8804.3,565.1
+North Rhine-Westphalia,2011,17545.1,8919.3,588.5
+North Rhine-Westphalia,2012,17549.6,9013.7,594.5
+North Rhine-Westphalia,2013,17563.1,9073.2,605.9
+North Rhine-Westphalia,2014,17605.0,9149.7,630.7
+North Rhine-Westphalia,2015,17751.8,9237.0,651.1
+North Rhine-Westphalia,2016,17877.8,9335.1,666.2
+North Rhine-Westphalia,2017,17901.1,9447.9,693.4
+North Rhine-Westphalia,2018,17922.4,9568.3,716.7
+North Rhine-Westphalia,2019,17939.9,9659.2,731.5
+North Rhine-Westphalia,2020,17936.4,9592.1,717.5
+North Rhine-Westphalia,2021,17925.1,9627.0,754.4
+North Rhine-Westphalia,2022,18031.9,9771.9,806.9
+North Rhine-Westphalia,2023,18164.8,9826.1,851.0
+North Rhine-Westphalia,2024,18195.7,9840.3,871.9
+Rhineland-Palatinate,1991,3792.1,1684.2,76.6
+Rhineland-Palatinate,2000,4027.9,1808.8,94.7
+Rhineland-Palatinate,2008,4028.6,1907.2,112.0
+Rhineland-Palatinate,2009,4011.6,1905.7,109.1
+Rhineland-Palatinate,2010,3998.9,1911.1,115.5
+Rhineland-Palatinate,2011,3992.1,1929.0,120.3
+Rhineland-Palatinate,2012,3990.2,1945.4,123.4
+Rhineland-Palatinate,2013,3992.3,1953.3,126.0
+Rhineland-Palatinate,2014,4003.0,1968.7,131.0
+Rhineland-Palatinate,2015,4032.2,1982.0,135.5
+Rhineland-Palatinate,2016,4059.4,1998.7,139.2
+Rhineland-Palatinate,2017,4069.9,2018.4,143.1
+Rhineland-Palatinate,2018,4079.3,2037.9,146.0
+Rhineland-Palatinate,2019,4089.4,2050.4,150.5
+Rhineland-Palatinate,2020,4096.1,2028.7,147.8
+Rhineland-Palatinate,2021,4102.4,2032.2,167.8
+Rhineland-Palatinate,2022,4132.8,2055.5,176.9
+Rhineland-Palatinate,2023,4166.7,2064.3,180.6
+Rhineland-Palatinate,2024,4178.5,2061.0,184.0
+Saarland,1991,1074.5,484.1,21.6
+Saarland,2000,1062.2,517.7,25.7
+Saarland,2008,1019.7,520.5,32.2
+Saarland,2009,1011.9,517.8,29.2
+Saarland,2010,1004.8,520.9,30.8
+Saarland,2011,999.9,526.3,32.5
+Saarland,2012,996.1,527.1,32.7
+Saarland,2013,992.5,522.9,32.3
+Saarland,2014,989.9,522.6,33.9
+Saarland,2015,992.3,523.6,34.7
+Saarland,2016,996.1,529.0,35.1
+Saarland,2017,995.4,532.7,36.3
+Saarland,2018,992.3,535.4,36.8
+Saarland,2019,988.7,536.0,37.0
+Saarland,2020,985.4,528.2,35.5
+Saarland,2021,983.2,524.9,37.0
+Saarland,2022,987.5,526.6,40.9
+Saarland,2023,993.5,526.6,42.1
+Saarland,2024,993.3,522.5,42.6
+Saxony,1991,4719.5,2257.1,36.9
+Saxony,2000,4402.0,2001.2,76.6
+Saxony,2008,4133.2,1964.2,95.3
+Saxony,2009,4103.5,1955.5,92.8
+Saxony,2010,4077.9,1967.0,96.7
+Saxony,2011,4060.2,1970.3,101.2
+Saxony,2012,4052.2,1987.3,103.0
+Saxony,2013,4048.3,1998.8,105.8
+Saxony,2014,4050.8,2005.6,110.9
+Saxony,2015,4070.1,2000.7,115.5
+Saxony,2016,4083.3,2018.6,119.3
+Saxony,2017,4081.5,2039.8,124.1
+Saxony,2018,4079.6,2057.9,127.5
+Saxony,2019,4075.0,2064.6,132.6
+Saxony,2020,4064.5,2050.5,129.4
+Saxony,2021,4050.0,2051.5,136.3
+Saxony,2022,4064.6,2069.2,147.3
+Saxony,2023,4087.8,2074.0,157.9
+Saxony,2024,4081.7,2067.7,161.9
+Saxony-Anhalt,1991,2847.7,1277.9,20.7
+Saxony-Anhalt,2000,2614.0,1071.7,43.0
+Saxony-Anhalt,2008,2363.9,1027.5,51.2
+Saxony-Anhalt,2009,2334.0,1023.8,49.0
+Saxony-Anhalt,2010,2308.8,1025.2,51.9
+Saxony-Anhalt,2011,2287.1,1020.2,53.0
+Saxony-Anhalt,2012,2268.1,1015.2,55.2
+Saxony-Anhalt,2013,2252.0,1009.8,55.7
+Saxony-Anhalt,2014,2240.1,1004.3,56.9
+Saxony-Anhalt,2015,2240.5,1000.8,57.7
+Saxony-Anhalt,2016,2240.9,1002.8,59.3
+Saxony-Anhalt,2017,2229.7,1006.3,61.4
+Saxony-Anhalt,2018,2215.7,1007.3,62.4
+Saxony-Anhalt,2019,2201.6,1007.0,65.3
+Saxony-Anhalt,2020,2187.7,996.4,64.3
+Saxony-Anhalt,2021,2175.0,995.4,67.6
+Saxony-Anhalt,2022,2177.9,996.4,74.2
+Saxony-Anhalt,2023,2183.5,993.5,78.5
+Saxony-Anhalt,2024,2174.9,989.2,79.4
+Schleswig-Holstein,1991,2636.1,1221.2,51.2
+Schleswig-Holstein,2000,2764.7,1285.4,64.4
+Schleswig-Holstein,2008,2805.3,1308.5,74.0
+Schleswig-Holstein,2009,2801.2,1314.4,72.0
+Schleswig-Holstein,2010,2799.7,1319.1,73.7
+Schleswig-Holstein,2011,2801.2,1331.8,76.6
+Schleswig-Holstein,2012,2804.4,1341.4,79.4
+Schleswig-Holstein,2013,2811.2,1347.2,80.4
+Schleswig-Holstein,2014,2823.4,1356.7,83.1
+Schleswig-Holstein,2015,2844.8,1369.9,85.2
+Schleswig-Holstein,2016,2870.3,1390.1,87.8
+Schleswig-Holstein,2017,2885.9,1408.9,93.3
+Schleswig-Holstein,2018,2893.3,1426.4,95.8
+Schleswig-Holstein,2019,2900.2,1441.5,100.2
+Schleswig-Holstein,2020,2907.3,1437.3,99.9
+Schleswig-Holstein,2021,2916.4,1445.3,105.7
+Schleswig-Holstein,2022,2937.6,1463.1,117.1
+Schleswig-Holstein,2023,2959.5,1475.0,122.2
+Schleswig-Holstein,2024,2969.9,1482.2,126.8
+Thuringia,1991,2590.6,1227.6,17.2
+Thuringia,2000,2421.3,1079.9,40.0
+Thuringia,2008,2243.8,1041.1,48.0
+Thuringia,2009,2222.1,1035.7,46.2
+Thuringia,2010,2203.8,1044.1,48.9
+Thuringia,2011,2188.5,1048.4,51.7
+Thuringia,2012,2176.0,1049.0,52.3
+Thuringia,2013,2165.7,1043.4,54.3
+Thuringia,2014,2158.8,1039.9,57.0
+Thuringia,2015,2163.7,1039.6,58.4
+Thuringia,2016,2164.4,1041.1,60.2
+Thuringia,2017,2154.7,1043.8,62.2
+Thuringia,2018,2147.2,1046.3,63.2
+Thuringia,2019,2138.3,1044.3,64.9
+Thuringia,2020,2126.8,1028.8,63.9
+Thuringia,2021,2114.6,1022.4,66.9
+Thuringia,2022,2117.9,1026.8,71.5
+Thuringia,2023,2124.6,1026.1,76.8
+Thuringia,2024,2115.5,1017.8,78.2
