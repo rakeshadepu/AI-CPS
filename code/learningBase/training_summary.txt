@@ -1,0 +1,40 @@
+================================================================================
+AI-BASED ECONOMIC FORECAST ACROSS GERMAN STATES
+ANN Model Training Summary
+================================================================================
+
+TRAINING INFORMATION
+--------------------------------------------------------------------------------
+Total Training Iterations (Epochs): 200
+Final Training Loss (MSE):          0.35689518
+Final Validation Loss (MSE):        0.56409448
+Final Training MAE:                 0.50583059
+Final Validation MAE:               0.63443542
+
+Best Validation Loss at Epoch:      150
+Best Validation Loss Value:         0.16433217
+
+================================================================================
+TRAINING SET PERFORMANCE
+--------------------------------------------------------------------------------
+Mean Squared Error (MSE):           0.08105295
+Mean Absolute Error (MAE):          0.21284194
+R² Score:                           0.91596248
+
+================================================================================
+TEST SET PERFORMANCE
+--------------------------------------------------------------------------------
+Mean Squared Error (MSE):           0.15746572
+Root Mean Squared Error (RMSE):     0.39681951
+Mean Absolute Error (MAE):          0.25581884
+R² Score:                           0.85814725
+
+================================================================================
+MODEL ASSESSMENT
+--------------------------------------------------------------------------------
+Status: EXCELLENT FIT
+  Test R² of 0.8581 indicates strong predictive performance
+
+================================================================================
+END OF TRAINING SUMMARY
+================================================================================
