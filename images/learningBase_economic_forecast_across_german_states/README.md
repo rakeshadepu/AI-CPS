@@ -47,7 +47,7 @@ It is strictly separated from the Activation Base to ensure:
 ## 4. Docker Image Information
 
 * **Docker Image Name:**
-  `learningBase_economic_forecast_across_german_states`
+  `learningbase_economic_forecast_across_german_states`
 * **Base Image:**
   `busybox`
 
@@ -118,7 +118,7 @@ Any derivative work must comply with this license.
 
 ---
 
-## 9. Testing the Image (Optional)
+## 9. Testing the Image
 
 The image can be tested using a `docker-compose.yml` file with an external volume:
 
@@ -129,6 +129,5 @@ This mounts the internal `/tmp` directory for inspection.
 ## 10. Publication
 
 This image is intended to be published on a **public Docker Hub profile**.
-The corresponding `docker pull` command must be documented in the final project report.
 
 ---

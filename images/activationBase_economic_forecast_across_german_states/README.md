@@ -1,6 +1,6 @@
 ---
 
-## Activation Base – AI-Driven GDP Forecasting for German Federal States
+## Activation Base – AI-Based Economic Forecast Across German States
 
 ---
 
@@ -44,7 +44,7 @@ It contains **no training or testing data** and is strictly isolated from the Le
 ## 4. Docker Image Information
 
 * **Docker Image Name:**
-  `activationBase_economic_forecast_across_german_states`
+  `activationbase_economic_forecast_across_german_states`
 * **Base Image:**
   `busybox`
 
@@ -107,7 +107,7 @@ This Docker image and its contents are released under the:
 
 ---
 
-## 9. Testing the Image (Optional)
+## 9. Testing the Image
 
 The image can be tested using an external Docker volume:
 
@@ -118,6 +118,5 @@ This allows inspection of the activation dataset.
 ## 10. Publication
 
 This image is intended to be published on a **public Docker Hub profile**.
-The `docker pull` command must be included in the final project documentation.
 
 ---
