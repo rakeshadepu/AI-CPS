@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    gdp   R-squared:                       0.988
+Model:                            OLS   Adj. R-squared:                  0.988
+Method:                 Least Squares   F-statistic:                     6488.
+Date:                Thu, 22 Jan 2026   Prob (F-statistic):          1.28e-228
+Time:                        18:01:40   Log-Likelihood:                 195.67
+No. Observations:                 243   AIC:                            -383.3
+Df Residuals:                     239   BIC:                            -369.4
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        -42.0056      1.850    -22.710      0.000     -45.649     -38.362
+population    -0.8719      0.054    -16.220      0.000      -0.978      -0.766
+employment     1.8170      0.054     33.947      0.000       1.712       1.922
+year           0.0209      0.001     22.719      0.000       0.019       0.023
+==============================================================================
+Omnibus:                      203.551   Durbin-Watson:                   2.184
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5637.471
+Skew:                          -3.024   Prob(JB):                         0.00
+Kurtosis:                      25.808   Cond. No.                     5.33e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.33e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.

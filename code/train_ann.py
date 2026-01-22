@@ -27,10 +27,6 @@ from tensorflow.keras.regularizers import l2
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import EarlyStopping
 
-# Custom visualization utilities
-from visualization_ann import generate_all_visualizations
-
-
 # ======================================================
 # GLOBAL SETTINGS
 # ======================================================
@@ -239,18 +235,16 @@ def complete_training_pipeline(
         history : Training history
         metrics : Performance metrics
     """
+    from utils import create_output_directories
+
+    documentation_dir, ann_dir, ols_dir = create_output_directories()
 
     print("\nCOMPLETE ANN TRAINING PIPELINE")
     print("=" * 80)
 
-    # Create output directories
-    base_path = Path(learning_base_dir)
-    base_path.mkdir(parents=True, exist_ok=True)
+    models_dir = ann_dir
 
-    models_dir = Path('../models')
-    models_dir.mkdir(exist_ok=True)
-
-    print(f"\nOutput directory: {base_path.absolute()}")
+    print(f"\nOutput directory: {models_dir.absolute()}")
 
     # Step 1: Model creation
     model = create_ann_model(input_dim=X_train.shape[1])
@@ -284,11 +278,11 @@ def complete_training_pipeline(
         y_test=y_test,
         y_test_pred=y_test_pred,
         metrics=metrics,
-        output_dir=base_path,
+        output_dir=models_dir,
     )
 
     print("\nTRAINING PIPELINE COMPLETED SUCCESSFULLY")
-    print(f"All outputs saved to: {base_path.absolute()}")
+    print(f"All outputs saved to: {models_dir.absolute()}")
 
     return model, history, metrics
 
@@ -299,7 +293,11 @@ def complete_training_pipeline(
 
 if __name__ == "__main__":
 
-    from utils import load_data
+    # Custom visualization utilities
+    from visualization_ann import generate_all_visualizations
+    from utils import load_data, create_output_directories
+
+    documentation_dir, ann_dir, ols_dir = create_output_directories()
 
     print("\nTESTING ANN TRAINING MODULE")
     print("=" * 80)
@@ -320,7 +318,7 @@ if __name__ == "__main__":
         y_test,
         epochs=500,
         batch_size=16,
-        learning_base_dir="learningBase",
+        learning_base_dir=ann_dir,
     )
 
     print("\nMODULE TEST COMPLETED SUCCESSFULLY")

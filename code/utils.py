@@ -22,16 +22,22 @@ def create_output_directories():
 
     Returns:
         Path: Models directory
-        Path: Learning base (visualizations) directory
+        Path: Documentation directory
+        Path: ANN visualizations directory
+        Path: OLS visualizations directory
     """
 
-    models_dir = Path("../models")
-    models_dir.mkdir(parents=True, exist_ok=True)
+    documentation_dir = Path("../documentation")
+    documentation_dir.mkdir(parents=True, exist_ok=True)
 
-    learningbase_dir = Path("../learningBase")
-    learningbase_dir.mkdir(parents=True, exist_ok=True)
+    ann_dir = documentation_dir / "ann_visualizations"
+    ann_dir.mkdir(parents=True, exist_ok=True)
 
-    return models_dir, learningbase_dir
+    ols_dir = documentation_dir / "ols_visualizations"
+    ols_dir.mkdir(parents=True, exist_ok=True)
+
+
+    return documentation_dir, ann_dir, ols_dir
 
 
 # ======================================================

@@ -5,35 +5,35 @@ ANN Model Training Summary
 
 TRAINING INFORMATION
 --------------------------------------------------------------------------------
-Total Training Iterations (Epochs): 200
-Final Training Loss (MSE):          0.35689518
-Final Validation Loss (MSE):        0.56409448
-Final Training MAE:                 0.50583059
-Final Validation MAE:               0.63443542
+Total Training Iterations (Epochs): 135
+Final Training Loss (MSE):          0.11478879
+Final Validation Loss (MSE):        0.19198653
+Final Training MAE:                 0.24387057
+Final Validation MAE:               0.26523611
 
-Best Validation Loss at Epoch:      150
-Best Validation Loss Value:         0.16433217
+Best Validation Loss at Epoch:      85
+Best Validation Loss Value:         0.18156117
 
 ================================================================================
 TRAINING SET PERFORMANCE
 --------------------------------------------------------------------------------
-Mean Squared Error (MSE):           0.08105295
-Mean Absolute Error (MAE):          0.21284194
-R² Score:                           0.91596248
+Mean Squared Error (MSE):           0.08714072
+Mean Absolute Error (MAE):          0.21994231
+R² Score:                           0.90965054
 
 ================================================================================
 TEST SET PERFORMANCE
 --------------------------------------------------------------------------------
-Mean Squared Error (MSE):           0.15746572
-Root Mean Squared Error (RMSE):     0.39681951
-Mean Absolute Error (MAE):          0.25581884
-R² Score:                           0.85814725
+Mean Squared Error (MSE):           0.17453606
+Root Mean Squared Error (RMSE):     0.41777513
+Mean Absolute Error (MAE):          0.26272400
+R² Score:                           0.84276946
 
 ================================================================================
 MODEL ASSESSMENT
 --------------------------------------------------------------------------------
 Status: EXCELLENT FIT
-  Test R² of 0.8581 indicates strong predictive performance
+  Test R² of 0.8428 indicates strong predictive performance
 
 ================================================================================
 END OF TRAINING SUMMARY
