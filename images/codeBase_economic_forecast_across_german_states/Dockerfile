@@ -1,8 +1,12 @@
+
 FROM busybox
 
-WORKDIR /tmp/codeBase
+# WORKDIR /tmp/codeBase
 
-COPY activation_data.csv .
-COPY README.md .
+# Create required path and add Python scripts here.
+RUN mkdir -p /tmp/codeBase/
+COPY activation_ann.py /tmp/codenBase/
+COPY activation_ols.py /tmp/codenBase/
+COPY README.md /tmp/codeBase/
 
 CMD ["sh"]

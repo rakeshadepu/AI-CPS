@@ -1,11 +1,13 @@
-#
+# Use the busybox base image as required 
 FROM busybox
 
-#
-# Create required path and add files
+# Create the required directory structure
 RUN mkdir -p /tmp/activationBase/
-COPY data/activation_data.csv /tmp/activationBase/
+
+# Copy your data to the specific paths
+COPY activation_data.csv /tmp/activationBase/
 COPY README.md /tmp/activationBase/
 
-CMD ["sh"]# Use the busybox base image
+# Use the busybox base image
+CMD ["sh"]
 

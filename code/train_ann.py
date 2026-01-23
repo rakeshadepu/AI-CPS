@@ -208,7 +208,7 @@ def save_ann_model(model: tf.keras.Model, models_dir: Path) -> None:
 
     print("\nSAVING ANN MODEL")
 
-    model_path = models_dir / "currentAiSolution.h5"
+    model_path = models_dir / "currentAiSolution.keras"
     model.save(model_path)
 
     print(f"  Model saved to: {model_path}\n")
