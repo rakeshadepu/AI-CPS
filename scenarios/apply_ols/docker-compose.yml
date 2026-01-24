@@ -1,0 +1,27 @@
+version: "3.8"
+
+volumes:
+  ai_system:
+    external: true
+
+services:
+
+  knowledgebase:
+    image: rakeshadepu/knowledgebase_economic_forecast_across_german_states
+    volumes:
+      - ai_system:/tmp
+
+  activationbase:
+    image: rakeshadepu/activationbase_economic_forecast_across_german_states
+    volumes:
+      - ai_system:/tmp
+    depends_on:
+      - knowledgebase
+
+  codebase_ols:
+    image: rakeshadepu/codebase_economic_forecast_across_german_states
+    volumes:
+      - ai_system:/tmp
+    depends_on:
+      - activationbase
+    command: ["python", "/app/activation_ols.py"]
