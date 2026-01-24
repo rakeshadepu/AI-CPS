@@ -1,12 +1,18 @@
+FROM python:3.10-slim
 
-FROM busybox
+WORKDIR /app
 
-# WORKDIR /tmp/codeBase
+# Copy inference scripts
+COPY activation_ann.py .
+COPY activation_ols.py .
+COPY README.md .
 
-# Create required path and add Python scripts here.
-RUN mkdir -p /tmp/codeBase/
-COPY activation_ann.py /tmp/codenBase/
-COPY activation_ols.py /tmp/codenBase/
-COPY README.md /tmp/codeBase/
+# Install required libraries
+RUN pip install --no-cache-dir \
+    numpy \
+    pandas \
+    tensorflow-cpu \
+    statsmodels \
+    scikit-learn
 
 CMD ["sh"]

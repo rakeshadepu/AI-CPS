@@ -170,8 +170,11 @@ def main():
     print("-" * 80)
     
     # Define paths
-    model_path = script_dir.parent / "images" / "knowledgeBase_economic_forecast_across_german_states" / "currentOlsSolution.pkl"
-    activation_path = script_dir.parent / "images"  / "activationBase_economic_forecast_across_german_states" / "activation_data.csv"
+    from pathlib import Path
+
+    model_path = Path("/tmp/knowledgeBase/currentOlsSolution.pkl")
+    activation_path = Path("/tmp/activationBase/activation_data.csv")
+
     
     # print(f"\nPaths:")
     # print(f"  Script directory  : {script_dir}")
